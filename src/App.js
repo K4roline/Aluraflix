@@ -4,14 +4,15 @@ import Logo from './components/imgs/logo.png';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
 
-        <section>
+      <header className="App-header">
           <img src={Logo}/>
-        </section>
       </header>
+
     </div>
   );
 }
+
+
 
 export default App;
