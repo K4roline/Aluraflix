@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './components/imgs/logo.png';
+import { globalStyle } from './components/global';
 
 function App() {
   return (
