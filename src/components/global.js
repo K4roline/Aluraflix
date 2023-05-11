@@ -1,5 +1,9 @@
-// import {createGlobalStyle} from 'styledComponents'
+function global() {
 
-// export const globalStyle = createGlobalStyle`
+    return (
+        <p>aaaa</p>
+    )
+}
 
 
+export default global

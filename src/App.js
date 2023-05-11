@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './components/imgs/logo.png';
+import Global from './components/global';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <p>Categoria</p>
           <button id='btncategoria'>Nova Categoria</button>
       </header>
+      <global/>
 
     </div>
   );
