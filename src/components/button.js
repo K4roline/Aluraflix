@@ -1,12 +1,10 @@
-'use strict';
+function Evento() {
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = getImplicitRoleForButton;
-/**
- * Returns the implicit role for a button tag.
- */
-function getImplicitRoleForButton() {
-  return 'button';
+  function salvar() {
+    
+  }
+
+  return (
+    <button onClick={salvar}>Salvar</button>
+  )
 }

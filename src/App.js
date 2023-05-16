@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './components/imgs/logo.png';
 import Global from './components/global';
+import Button from './components/button'
 
 function App() {
   return (
