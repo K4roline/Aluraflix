@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from './components/imgs/logo.png';
 import Global from './components/global';
 import Button from './components/button'
+import Cadastro from './components/cadastro'
 
 function App() {
   return (
