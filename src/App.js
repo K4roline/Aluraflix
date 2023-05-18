@@ -1,25 +1,22 @@
 import React from 'react';
-import Logo from './components/imgs/logo.png';
-import Global from './components/global';
-import Button from './components/button'
-import Cadastro from './components/cadastro'
+import {BrowserRouter as Router, Route, Link, Routes, Switch} from 'react-router-dom';
+import Home from './components/paginas/home';
+import Add from './components/paginas/addVideo';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <Router>
+      <div>
+        <Link to="/">Home</Link>
+        <Link to="/addVideo">Adicionar Video</Link>
 
-      <header className="App-header">
-          <img src={Logo} id='logo'/>
-          <p>Video</p>
-          <p>Categoria</p>
-          <button id='btncategoria'>Nova Categoria</button>
-      </header>
-      <global/>
-
-    </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/addVideo" element={<addVideo />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
 
-
-export default App;
