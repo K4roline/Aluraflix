@@ -20,6 +20,7 @@
     text-decoration: none;
 }
 
-.item :hover {
+.item a:hover {
     color: rgb(139, 198, 215);
 }
+
