@@ -12,11 +12,11 @@ function Navbar() {
                 <Link to="/">
                     <img src={Logo}/>
                 </Link>
-                <ul class={Styles.list}>
-                    <li class={Styles.item}>
+                <ul className={Styles.list}>
+                    <li className={Styles.item}>
                         <Link to="/">Home</Link>
                     </li>
-                    <li class={Styles.item}>
+                    <li className={Styles.item}>
                         <Link to="/addVideo">Adicionar Video</Link>
                     </li>
                 </ul>

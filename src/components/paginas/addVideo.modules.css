@@ -1,0 +1,14 @@
+h1 {
+    color: #fff;
+    margin-left: 20%;
+    display: flex;
+    list-style: none;
+    padding: 1vh;
+    padding-top: 5vh;
+}
+
+.newvideo_container {
+    width: 25%;
+    margin: 0 auto;
+    padding: 2vh;
+}
