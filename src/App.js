@@ -16,8 +16,8 @@ export default function App() {
 
         <container customClass="min-height">
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/addVideo" element={<addVideo />} />
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/addVideo" element={<addVideo/>} />
           </Routes>
         </container>
       </div>

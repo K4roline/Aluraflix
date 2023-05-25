@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import Styles from './linkButton.modules.css'
+import Styles from './LinkButton.modules.css'
 
-function linkButton({to, text}) {
+function LinkButton({to, text}) {
     return (
         <Link className={Styles.btn} to={to}>
             {text}
@@ -9,4 +9,4 @@ function linkButton({to, text}) {
     )
 }
 
-export default linkButton
+export default LinkButton
