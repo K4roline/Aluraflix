@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+label {
+    margin-bottom: .6em;
+    font-weight: bolder;
+}
+
+select {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
