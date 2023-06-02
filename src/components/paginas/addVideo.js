@@ -1,10 +1,10 @@
-import { useHistory } from 'react-router'
+import { history } from 'react-router'
 import Formulario from '../projeto/formulario'
 import Styles from './addVideo.modules.css'
 
 function Add() {
 
-    const history = useHistory()
+    const history = history()
 
     function createPost(project) {
         // Salvar Nome do video e Descrição do video

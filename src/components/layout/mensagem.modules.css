@@ -1,0 +1,11 @@
+.mensagem {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.sucess {
+    color: aquamarine;
+    background-color: red;
+}
