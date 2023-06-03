@@ -1,0 +1,28 @@
+.videoCard {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+h4 {
+    width: 2%;
+    color: red;
+}
+
+.categoria {
+    display: block;
+    width: 2%;
+    height: 2%;
+    color: red;
+}
+
+.categoria .front {
+    background-color: aquamarine;
+}
+
+.categoria .back {
+    background-color: blueviolet;
+}
+
+.categoria .flutter {
+    background-color: green;
+}
