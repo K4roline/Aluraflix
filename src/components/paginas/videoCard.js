@@ -9,7 +9,6 @@ function videoCard({id, name, category, handleRemove}) {
                 </p>
             <div>
                 <p>editar</p>
-                <p>remover</p>
 
                 <Link to='/'/>
 
