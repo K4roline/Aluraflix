@@ -8,7 +8,7 @@ function videoCard({id, name, category, handleRemove}) {
                     <span  className={`${Styles[category.toLowerCase()]}`}></span> {category}
                 </p>
             <div>
-                <p>editar</p>
+                <p>Excluir</p>
 
                 <Link to='/'/>
 
