@@ -26,6 +26,22 @@ function projetos() {
           .catch(erro => console.log(erro))
     }, [])
 
+    function removeVideo(id) {
+        const serviceUpdated = videoCard.service.filter((service) => video.id !== id)
+    
+        const projectUpdated = projetos
+
+        projectUpdated.service = serviceUpdated
+
+        fetch(`https://localhost:5000/addVideo/${projectUpdated.id}`, {
+            method:'PATCH',
+            headers: {'Content-type': 'application/json'},
+            body: JSON.stringify(projectUpdated)
+        }).then(resposta => resposta.json())
+          .then(data => {setProjetos(projectUpdated)})
+          .catch(erro => console.log(erro))
+    }
+
     return (
         <div className={styles.projetos_container}>
             <div className={styles.titulo_container}>

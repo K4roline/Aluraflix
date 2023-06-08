@@ -1,6 +1,11 @@
 import Styles from './videoCard.modules.css'
 
 function videoCard({id, name, category, handleRemove}) {
+
+    const remove = (e) => {
+        e.preventDefault(); handleRemove(id)
+    }
+
     return (
         <div className={videoCard}>
                 <h4>{name}</h4>
